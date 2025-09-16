@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pcc"
-version = "0.1.1"
+version = "0.1.2"
 description = "Utility to erase all __pycache__ folders recursively"
 authors = [
   { name="Simon R. Lincoln" }

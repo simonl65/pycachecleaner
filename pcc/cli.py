@@ -33,6 +33,10 @@ def main() -> None:
     args = parser.parse_args()
 
     removed = remove___pycache__(args.path)
+    if removed == -1:
+        print(f"Error: Invalid path \"{args.path}\"")
+        sys.exit(1)
+
     print(f"Removed {removed} `__pycache__` folder(s).")
 
-    sys.exit(0 if removed >= 0 else 1)
+    sys.exit(0)
