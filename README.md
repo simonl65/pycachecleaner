@@ -1,4 +1,4 @@
-# pcc - **pycache** Cleaner
+# pcc - \_\_pycache\_\_ Cleaner
 
 A simple utility to recursively find and remove all `__pycache__` folders.
 
